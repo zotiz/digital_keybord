@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300;400;500&display=swap');
+body {
+  margin: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #de8a8a;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.png");
+}
+
+
+.virtual-keyboard .row {
+  text-align: center;
+  margin: 0 0 15px;
+  
+}
+.virtual-keyboard .row.spacebar input {
+  padding: 12px 150px;
+ 
+
+}
+
+.virtual-keyboard input[type=button] {
+  padding: 12px 34px;
+  margin:0 2px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border:none;
+  font-size:22px ;
+  background: #13AB9E;
+  color: #fff;
+  text-transform: uppercase;
+
+
+  
+}
+
+.virtual-keyboard input[type=button]:active {
+  background: #1fc2b4b9;
+
+background: radial-gradient(circle, rgba(19,171,158,1) 20%, rgba(174, 242, 255, 0.865) 100%);
+}
+.virtual-keyboard input[type=button].delete, .virtual-keyboard input[type=button].shift {
+  text-transform: none;
+}
+
+.output {
+  margin: 25px auto 100px;
+
+}
+
+.output textarea{
+  position: relative;
+  color: rgb(255, 255, 255);
+  background: rgb(126, 124, 124);
+  border: 0px;
+  outline: none;
+  resize: none;
+  font-size: 1.5em;
+  width: 80%;
+  height: 200px;
+  padding: 30px;
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color:#12cfbfa9;
+  border-radius: 12px;
+  border: 0.5px solid rgba(255, 255, 255, 0.653);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.boxx{
+  width: 50px;
+  height: 50px;
+  background: #421212;
+  position: absolute;
+  z-index: -1;
+  top:10px;
+  left:200px;
+  border-radius: 10px;
+}
+.boxx01{
+  width: 50px;
+  height: 50px;
+  background: #0977a6f0;
+  position: absolute;
+  top:260px;
+  right:100px;
+  z-index: -1;
+  border-radius: 10px;
+}
+.boxx02{
+  width: 50px;
+  height: 50px;
+  background: #212907f0;
+  position: absolute;
+  top:200px;
+  right:200px;
+  z-index: -1;
+  border-radius: 10px;
+}
+.boxx03{
+  width: 50px;
+  height: 50px;
+  background: #212907f0;
+  position: absolute;
+  top:250px;
+  left:100px;
+
+  border-radius: 10px;
+}
+.boxx04{
+  width: 70px;
+  height: 70px;
+  background: #212907f0;
+  position: absolute;
+  top:100px;
+  right:300px;
+  z-index: -1;
+  border-radius: 10px;
+}
+.output input:focus {
+  outline: none;
+  border: 0px;
+}
+.output ::-webkit-input-placeholder {
+  color: white;
+  font-size: 1em;
+}
+.creater{
+  margin-top:50px;
+}
+.creater a{
+  color:#421212;
+}
